@@ -82,7 +82,7 @@ const NavLinks = () => {
         <NavAcads />
         <NavInfra />
         <NavDepts />
-        <NavNews />
+        {/* <NavNews /> */}
         <NavAdmissions />
       </ul>
     </div>
