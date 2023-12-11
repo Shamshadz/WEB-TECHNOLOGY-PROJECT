@@ -18,7 +18,7 @@ const BCom = () => {
         <h1
           className={`flex justify-center text-center pt-10 text-black text-6xl ${specialElite.className}`}
         >
-          {"("}Diploma{")"}
+          {"("}M.TECH{")"}
         </h1>
         <div className={`grid lg:grid-cols-2 grid-cols-1 mx-4  gap-12`}>
           <Overview />
@@ -53,7 +53,7 @@ const Overview = () => {
         OVERVIEW
       </h2>
       <p className={`mt-6 ${bodyText.className}`}>
-        Diploma is an undergraduate 3-year full time
+        Diploma is an undergraduate 2-year full time
         degree program that provides educational expertise in the Engineering
         stream.{" "}
       </p>

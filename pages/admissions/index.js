@@ -60,12 +60,12 @@ const EligibilitySub = () => {
       <div className={` ${bodyText.className} mt-5 lg:mt-10 lg:text-xl`}>
         <ul className={`space-y-3 lg:text-xl lg:space-y-5`}>
           <li>
-            B.Com It is mandatory that the candidate scores a minimum of 55% in
+            B.TECH It is mandatory that the candidate scores a minimum of 55% in
             the previous board examination.
           </li>
           <li>
-            B.A It is mandatory that the candidate scores a minimum of 45% in
-            the previous board examination.
+            M.TECH It is mandatory that the candidate scores a minimum of 45% in
+            the previous examination.
           </li>
         </ul>
       </div>

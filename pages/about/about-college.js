@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import founderImg from "../../public/about/founder.webp";
-import logoImg from "../../public/about/ldcLogo.webp";
+import founderImg from "../../Assets/founder.jpg";
+import logoImg from "../../Assets/logo.png";
 
 import { Inter, Oswald, Lobster_Two } from "next/font/google";
 

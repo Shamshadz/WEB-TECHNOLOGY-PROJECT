@@ -56,12 +56,12 @@ const Certificate = () => {
           </div>
         </div>
 
-        <h2
+        {/* <h2
           className={`flex justify-center pt-10 text-black text-6xl ${kaushanScript.className} mt-16  `}
         >
           Study of Languages
-        </h2>
-        <div id="grid-container" className="mt-10">
+        </h2> */}
+        {/* <div id="grid-container" className="mt-10">
           <div className={`grid lg:grid-cols-3 grid-cols-2`}>
             <LangCard
               lang="English"
@@ -96,7 +96,7 @@ const Certificate = () => {
               bgGrad="bg-gradient-to-tr from-cyan-600 to-cyan-400"
             />
           </div>
-        </div>
+        </div> */}
         <div className="flex justify-center">
           <CertBtn className="w-72 h-20 my-20" />
         </div>

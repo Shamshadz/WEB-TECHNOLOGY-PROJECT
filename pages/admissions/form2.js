@@ -130,51 +130,46 @@ const Form = () => {
       <div className="container mx-auto py-8">
         <div className="flex justify-center mb-4">
           <button
-            className={`py-2 px-2 mx-1 rounded-2xl lg:mx-2 ${
-              activeTab === "personal-tab-section"
+            className={`py-2 px-2 mx-1 rounded-2xl lg:mx-2 ${activeTab === "personal-tab-section"
                 ? "bg-blue-500 text-white"
                 : "bg-gray-200 text-gray-700"
-            }`}
+              }`}
             onClick={() => handleTabChange("personal-tab-section")}
           >
             Personal
           </button>
           <button
-            className={`py-2 px-2 mx-1 rounded-2xl lg:mx-2 ${
-              activeTab === "contact-info-section"
+            className={`py-2 px-2 mx-1 rounded-2xl lg:mx-2 ${activeTab === "contact-info-section"
                 ? "bg-blue-500 text-white"
                 : "bg-gray-200 text-gray-700"
-            }`}
+              }`}
             onClick={() => handleTabChange("contact-info-section")}
           >
             Contact
           </button>
           <button
-            className={`py-2 px-2 mx-1 rounded-2xl lg:mx-2 ${
-              activeTab === "parents-details"
+            className={`py-2 px-2 mx-1 rounded-2xl lg:mx-2 ${activeTab === "parents-details"
                 ? "bg-blue-500 text-white"
                 : "bg-gray-200 text-gray-700"
-            }`}
+              }`}
             onClick={() => handleTabChange("parents-details")}
           >
             Parents
           </button>
           <button
-            className={`py-2 px-2 mx-1 rounded-2xl lg:mx-2 ${
-              activeTab === "education-details"
+            className={`py-2 px-2 mx-1 rounded-2xl lg:mx-2 ${activeTab === "education-details"
                 ? "bg-blue-500 text-white"
                 : "bg-gray-200 text-gray-700"
-            }`}
+              }`}
             onClick={() => handleTabChange("education-details")}
           >
             Education
           </button>
           <button
-            className={`py-2 px-2 mx-1 rounded-2xl lg:mx-2 ${
-              activeTab === "course-details"
+            className={`py-2 px-2 mx-1 rounded-2xl lg:mx-2 ${activeTab === "course-details"
                 ? "bg-blue-500 text-white"
                 : "bg-gray-200 text-gray-700"
-            }`}
+              }`}
             onClick={() => handleTabChange("course-details")}
           >
             Course
@@ -183,9 +178,8 @@ const Form = () => {
 
         <form onSubmit={handleSubmit} className="text-white">
           <div
-            className={`${
-              activeTab === "personal-tab-section" ? "block" : "hidden"
-            }`}
+            className={`${activeTab === "personal-tab-section" ? "block" : "hidden"
+              }`}
           >
             {[
               "Student name",
@@ -208,9 +202,8 @@ const Form = () => {
           </div>
 
           <div
-            className={`${
-              activeTab === "contact-info-section" ? "block" : "hidden"
-            }`}
+            className={`${activeTab === "contact-info-section" ? "block" : "hidden"
+              }`}
           >
             {[
               "Student phone number",
@@ -224,9 +217,8 @@ const Form = () => {
           </div>
 
           <div
-            className={`${
-              activeTab === "parents-details" ? "block" : "hidden"
-            }`}
+            className={`${activeTab === "parents-details" ? "block" : "hidden"
+              }`}
           >
             {[
               "Father's Name",
@@ -242,9 +234,8 @@ const Form = () => {
           </div>
 
           <div
-            className={`${
-              activeTab === "education-details" ? "block" : "hidden"
-            }`}
+            className={`${activeTab === "education-details" ? "block" : "hidden"
+              }`}
           >
             {[
               "Name of previous college",
@@ -301,8 +292,8 @@ const Form = () => {
             className={`${activeTab === "course-details" ? "block" : "hidden"}`}
           >
             {[
-              "course@BCOM, BA - Journalism and Political science, BA-Journalism and Psychology ",
-              "second-language@Hindi,Kannada,Addition English",
+              "course@BTECH, BTECH and DIPLOMA, PHD. ",
+              "second-language@MARATHI,HINDI,Addition English",
             ].map((field) => renderInputField("course-details", field))}
           </div>
 

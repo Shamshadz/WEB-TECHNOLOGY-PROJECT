@@ -18,7 +18,7 @@ const BA = () => {
         <h1
           className={`flex justify-center text-center pt-10 text-black lg:text-6xl text-4xl ${satisfy.className}`}
         >
-          Bachelor of Arts {"("}BA{")"}
+          Bachelor of Technology {"("}BTECH{")"}
         </h1>
         <div className={`grid lg:grid-cols-2 grid-cols-1 mx-3  gap-12`}>
           <Eligibility />
@@ -73,8 +73,8 @@ const Offerings = () => {
         COURSES
       </h2>
       <ul className={`mt-8 pl-10 list-disc space-y-4 ${bodyText.className}`}>
-        <li>BA Journalism, Psychology</li>
-        <li>BA Journalism, Political Science</li>
+        <li>BTECH - In</li>
+        <li>Computer Science, Information Technology, Electronics, Electrical, Mechanical and Civil.</li>
       </ul>
     </div>
   );

@@ -94,52 +94,25 @@ const LibraryDesc = () => {
   return (
     <div className="bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 text-white lg:w-3/4 lg:mx-32 my-6 mx-8 lg:p-8 p-3 rounded-xl">
       <p className={`${inter.className} pb-4 `}>
-        Loyola Degree College has a well equipped The Department of Library
-        Information and Centre established in the year 2017, that caters to 510
-        students and 32 staff. The library currently has over thousands of books
-        and journals. It also subscribes to e- resources in association with the
-        St Joseph’s University. The library has about 5 systems for students to
-        access e- resources. It also provides Wi-Fi enabling students to use
-        their laptops in the Library. Library subscribes to newspapers which
-        include English and Kannada, national journals and international
-        journals, periodical, magazines, etc. The library follows the Dewey
-        Decimal Scheme of Classification.
+        A New state of art Library worth 4,680 sq.mt. Constructed is a generous donation received from “Walchand Hirachand Memorial Trust” Mumbai and renamed as “Ajit Gulabchand Central Library”. The spacious library of the college holds the total collection of reading material 107859 including 56383 Books, 13064 Bound Volumes of Technical / Non-Technical Journals, Magazines, 38412 Book Bank Books accumulated over last six decades. It subscribes to 90 Technical, 8 Science and 7 General Journal / Magazines. This library is member of INDEST under which we receive 36390  Online journals including IEEE(464), IEEE Conference(19407),  ASCE(36), ASME (30), Science Direct(275) and  nlist.inflibnet.ac.in (6000) and 2325 e-books and nlist.inflibnet.ac.in (3135000).
       </p>
       <p className={`${inter.className} pb-4 `}>
-        The library follows the Dewey Decimal Scheme of Classification. Books
-        are arranged on the shelves, Author wise, Semester wise and Subject
-        wise. The Library is open from 8.30 a.m. to 4.00 p.m.
+        Library is having Membership of DELNET, New Delhi for Inter Library Loan, Reference facility and document delivery services. Library is also participate N-LIST Inflibnet program through membership for e-journal and e-books.
+
       </p>
       <p className={`${inter.className} pb-4 `}>
-        Library subscribes to newspapers which include English and Kannada,
-        national journals and international journals, periodical, magazines,
-        etc. The library follows the Dewey Decimal Scheme of Classification.
+        RFID Technology based Library Automation with Koha: Library Management System:
+        Radio Frequency Identification (RFID) provides for “sightless” or no line of sight identification of items. It includes the ability to facilitate circulation, re-shelving, and theft detection, and it has several other important advantages. It can either replace or supplement existing library bar codes.
+        RFID in Library RFID has the potential to speed up library services and streamline time consuming operations such as check in – check out, sorting, stock management and inventory
       </p>
       <p className={`${inter.className} pb-4 `}>
-        Loyola Degree College Library Committee conducts Library Orientation
-        programme every academic year in the month of August for all the
-        first-year students of UG. The students are familiarized with the
-        library facilities.
+        RFID Technology provides number of advantages for a library kind of environment.
       </p>
       <p className="pt-6">
         The library can accommodate over 25 students at a time. Additional
         services provided by the library are as follows:{" "}
       </p>
-      <ol className={`${inter.className} pb-4 list-decimal mx-12 `}>
-        <li>Circulation Service</li>
-        <li>Reference Service</li>
-        <li>News Paper Clipping Service</li>
-        <li>Renewal Service </li>
-        <li>Book reservation service </li>
-        <li>E-Library Service</li>
-      </ol>
-      <p>Facilities offered by the library are as follows:</p>
-      <ol className={`${inter.className} pb-4 list-decimal mx-12 `}>
-        <li>Wi-Fi connectivity</li>
-        <li>Reprographic facilities</li>
-        <li>Old question papers facilities</li>
-        <li>SC/ST Book bank facilities</li>
-      </ol>
+
     </div>
   );
 };
@@ -198,7 +171,7 @@ const LibraryTiming = () => {
           Library timings:
         </p>
         <p className={`font-light ${inter.className}`}>
-          Monday to Friday 9:00 am to 4:30 pm
+          Monday to Friday 9:00 am to 5:30 pm
         </p>
         <p className={`font-light ${inter.className}`}>
           Saturday 9:00 am to 1:00 pm
@@ -209,13 +182,13 @@ const LibraryTiming = () => {
           E-Library Details:
         </p>
         <p className={`font-light ${inter.className}`}>
-          Website: sjc.knimbus.com
+          Website: wce.com
         </p>
         <p className={`font-light ${inter.className}`}>
           User ID: student email
         </p>
         <p className={`font-light ${inter.className}`}>
-          Password: user@knimbus
+          Password: user@wce
         </p>
       </div>
     </div>

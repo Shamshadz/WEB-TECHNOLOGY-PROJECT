@@ -40,7 +40,7 @@ const Placements = () => {
         <RecentActivities />
         <Process />
         <Stats />
-        <PlacementDir />
+        {/* <PlacementDir /> */}
       </div>
     </div>
   );

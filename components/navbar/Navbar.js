@@ -37,9 +37,8 @@ const Navbar = () => {
     <>
       {/* // laptop navbar */}
       <div
-        className={`navbar bg-navbar-theme text-white sticky z-20 p-4 hidden lg:flex  ${
-          visible ? "top-0" : ""
-        }`}
+        className={`navbar bg-navbar-theme text-white sticky z-20 p-4 hidden lg:flex  ${visible ? "top-0" : ""
+          }`}
       >
         <NavLogoLink />
         <NavLinks />
@@ -123,15 +122,15 @@ const AboutSubMenu = () => {
       <li>
         <Link href={`/about/vision-mission`}>Vision & Mission</Link>
       </li>
-      <li>
+      {/* <li>
         <Link href={`/about/crest-anthem`}>Crest & Anthem</Link>
-      </li>
+      </li> */}
       <li>
         <Link href={`/about/core-values`}>Core Values</Link>
       </li>
-      <li>
+      {/* <li>
         <Link href={`/about/management`}>Management</Link>
-      </li>
+      </li> */}
     </ul>
   );
 };
@@ -163,21 +162,21 @@ const NavStudent = () => {
 const StudentSubMenu = () => {
   return (
     <ul className={`bg-white text-black z-10 ${styles.subMenu}`}>
-      <li>
+      {/* <li>
         <Link href={`/student/associations`}>Associations</Link>
-      </li>
+      </li> */}
       <li>
         <Link href={`/student/placements`}>Placements</Link>
       </li>
       <li>
         <Link href={`/student/grievances`}>Grievances</Link>
       </li>
-      <li>
+      {/* <li>
         <Link href={`/student/student-council`}>Student Council</Link>
-      </li>
-      <li>
+      </li> */}
+      {/* <li>
         <Link href={`/student/student-achievements`}>Student Achievements</Link>
-      </li>
+      </li> */}
     </ul>
   );
 };
@@ -212,14 +211,14 @@ const AcadsSubMenu = () => {
       className={`bg-white text-black z-10 ${styles.subMenu} ${styles.acadsMenu}`}
     >
       <li>
-        <Link href={`/academics/ba`}>B.A.</Link>
+        <Link href={`/academics/ba`}>B.TECH</Link>
       </li>
       <li>
-        <Link href={`/academics/bcom`}>B.Com</Link>
+        <Link href={`/academics/bcom`}>M.TECH</Link>
       </li>
-      <li>
+      {/* <li>
         <Link href={`/academics/certificate-courses`}>Study Of Languages</Link>
-      </li>
+      </li> */}
       <li>
         <Link href={`/academics/certificate-courses`}>Certificate Courses</Link>
       </li>
@@ -263,9 +262,9 @@ const InfraSubMenu = () => {
       <li>
         <Link href={"/infrastructure/library"}>Library</Link>
       </li>
-      <li>
+      {/* <li>
         <Link href={"/infrastructure/sports"}>Sports</Link>
-      </li>
+      </li> */}
     </ul>
   );
 };
@@ -326,9 +325,8 @@ const SideBar = () => {
       </button>
 
       <div
-        className={`${
-          sidebarOpen ? "absolute" : "hidden"
-        } -left-2 -top-7  z-20 w-screen`}
+        className={`${sidebarOpen ? "absolute" : "hidden"
+          } -left-2 -top-7  z-20 w-screen`}
       >
         <div className="flex flex-col w-1/2 h-screen fixed bg-navbar-theme">
           {/* close menu button inside the sidebar  */}
