@@ -72,7 +72,7 @@ const Certificate = () => {
             <LangCard
               lang="Kannada"
               className="justify-self-center"
-              src={Marathi}
+              src={kannada}
               bgGrad="bg-gradient-to-tr from-cyan-600 to-cyan-400"
             />
             <LangCard
