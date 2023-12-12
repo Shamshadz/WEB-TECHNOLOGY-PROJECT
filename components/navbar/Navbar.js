@@ -413,10 +413,10 @@ const SideBar = () => {
           {AcademicsSidebarOpen && (
             <div className="flex flex-col px-7">
               <Link href="/academics/ba" className="py-1">
-                B.A.
+                B.TECH
               </Link>
               <Link href="/academics/bcom" className="py-1">
-                B. Com
+                M.TECH
               </Link>
               <Link href="/academics/certificate-courses" className="py-1">
                 Study of Languages
