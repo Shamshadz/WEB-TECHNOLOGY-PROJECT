@@ -354,14 +354,9 @@ const SideBar = () => {
               <Link href="/about/vision-mission" className="py-1">
                 Vision and Mission
               </Link>
-              <Link href="/about/crest-anthem" className="py-1">
-                Crest and Anthem
-              </Link>
+            
               <Link href="/about/core-values" className="py-1">
                 Core Values
-              </Link>
-              <Link href="/about/management" className="py-1">
-                Management
               </Link>
             </div>
           )}
@@ -389,9 +384,7 @@ const SideBar = () => {
               <Link href="/student/grievances" className="py-1">
                 Grievances
               </Link>
-              <Link href="/student/student-council" className="py-1">
-                Student Council
-              </Link>
+            
               <Link href="/student/student-achievements" className="py-1">
                 Student Achievements
               </Link>
@@ -418,9 +411,7 @@ const SideBar = () => {
               <Link href="/academics/bcom" className="py-1">
                 M.TECH
               </Link>
-              <Link href="/academics/certificate-courses" className="py-1">
-                Study of Languages
-              </Link>
+          
               <Link href="/academics/certificate-courses" className="py-1">
                 Certificate Courses
               </Link>
@@ -450,19 +441,14 @@ const SideBar = () => {
               <Link href="/infrastructure/library" className="py-1">
                 Library
               </Link>
-              <Link href="/infrastructure/sports" className="py-1">
-                Sports
-              </Link>
+
             </div>
           )}
           {/* Departments menu inside the sidebar */}
           <div className="flex justify-between px-5 py-2 ">
             <Link href="/departments">Departments</Link>
           </div>
-          {/* News and events menu inside the sidebar */}
-          <div className="flex justify-between px-5 py-2 ">
-            <Link href="/news_events">News and events</Link>
-          </div>
+          
           {/* Admissions menu inside the sidebar */}
           <div className="flex justify-between px-5 py-2 rounded bg-blue-300 mx-8 my-2 text-center text-navbar-theme ">
             <Link href="/admissions" className="text-lg font-bold">
